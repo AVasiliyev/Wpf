@@ -22,8 +22,8 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="0.8*" />
         </Grid.ColumnDefinitions>
-
-        <ListBox Grid.Column="0" ItemsSource="{Binding Employees}"
+        <TextBlock Grid.Column="0" Text="{Binding UrlByteCount.Result}"/>
+        <ListBox Grid.Column="1" ItemsSource="{Binding Employees}"
             SelectedItem="{Binding SelectedEmployee}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
@@ -35,7 +35,7 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <StackPanel Grid.Column="1" DataContext="{Binding SelectedEmployee}">
+        <StackPanel Grid.Column="2" DataContext="{Binding SelectedEmployee}">
             <TextBlock Text="Выбранный элемент"/>
             <TextBlock Text="Адресс"/>
             <TextBox Text="{Binding Address, UpdateSourceTrigger=PropertyChanged}" />

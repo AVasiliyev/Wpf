@@ -38,8 +38,12 @@ namespace WpfAppDemo
             return dbEmployees;
         }
 
+        public NotifyTaskCompletion<int> UrlByteCount { get; private set; }
+
         public ApplicationViewModel()
         {
+            UrlByteCount = new NotifyTaskCompletion<int>(CountBytesInUrlAsync());
+
             //await GetEmployee();
 
             //Phones = new ObservableCollection<Phone>
@@ -63,6 +67,13 @@ namespace WpfAppDemo
             //    Employees = new ObservableCollection<Employee>(dbEmployees);
             //}
             //);
+        }
+
+        private static async Task<int> CountBytesInUrlAsync()
+        {
+            await Task.Delay(TimeSpan.FromSeconds(3)).ConfigureAwait(false);
+            //Thread.Sleep(TimeSpan.FromSeconds(3));
+            return 159;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
