@@ -11,7 +11,7 @@ namespace WpfAppDemo
         {
             InitializeComponent();
 
-            DataContext = new ApplicationViewModel(this);
+            DataContext = new ApplicationViewModel();
         }
     }
 }

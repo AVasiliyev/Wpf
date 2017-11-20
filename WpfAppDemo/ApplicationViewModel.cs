@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Data.Entity;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Windows;
 
 namespace WpfAppDemo
 {
@@ -40,7 +38,7 @@ namespace WpfAppDemo
             return dbEmployees;
         }
 
-        public ApplicationViewModel(Window window)
+        public ApplicationViewModel()
         {
             //await GetEmployee();
 
@@ -63,7 +61,6 @@ namespace WpfAppDemo
                 }
 
                 Employees = new ObservableCollection<Employee>(dbEmployees);
-                window.Title = "Ready";
             });
         }
 
