@@ -22,27 +22,27 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="0.8*" />
         </Grid.ColumnDefinitions>
-        
-        <ListBox Grid.Column="0" ItemsSource="{Binding Phones}"
-            SelectedItem="{Binding SelectedPhone}">
+
+        <ListBox Grid.Column="0" ItemsSource="{Binding Employees}"
+            SelectedItem="{Binding SelectedEmployee}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Margin="5">
-                        <TextBlock FontSize="18" Text="{Binding Path=Title}" />
-                        <TextBlock Text="{Binding Path=Company}" />
-                        <TextBlock Text="{Binding Path=Price}" />
+                        <TextBlock FontSize="18" Text="{Binding Path=EmployeeID}" />
+                        <TextBlock Text="{Binding Path=FirstName}" />
+                        <TextBlock Text="{Binding Path=LastName}" />
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <StackPanel Grid.Column="1" DataContext="{Binding SelectedPhone}">
+        <StackPanel Grid.Column="1" DataContext="{Binding SelectedEmployee}">
             <TextBlock Text="Выбранный элемент"/>
-            <TextBlock Text="Модель"/>
-            <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" />
-            <TextBlock Text="Производитель" />
-            <TextBox Text="{Binding Company, UpdateSourceTrigger=PropertyChanged}" />
-            <TextBlock Text="Цена" />
-            <TextBox Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Адресс"/>
+            <TextBox Text="{Binding Address, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Город" />
+            <TextBox Text="{Binding City, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Почтовый Код" />
+            <TextBox Text="{Binding PostalCode, UpdateSourceTrigger=PropertyChanged}" />
         </StackPanel>
     </Grid>
 </Window>
