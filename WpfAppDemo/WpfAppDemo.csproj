@@ -99,6 +99,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>northwnd.edmx</DependentUpon>
     </Compile>
+    <Compile Include="NotifyTaskCompletion.cs" />
     <Compile Include="Phone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

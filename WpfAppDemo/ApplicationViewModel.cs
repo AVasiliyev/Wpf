@@ -50,18 +50,19 @@ namespace WpfAppDemo
             //    new Phone {Title="Mi5S", Company="Xiaomi", Price=35000 }
             //};
 
-            Task.Run(() =>
-            {
-                Thread.Sleep(TimeSpan.FromSeconds(5));
+            //Task.Run(() =>
+            //{
+            //    Thread.Sleep(TimeSpan.FromSeconds(5));
 
-                List<Employee> dbEmployees;
-                using (var db = new NorthWndEntities())
-                {
-                    dbEmployees = db.Employees.ToList();
-                }
+            //    List<Employee> dbEmployees;
+            //    using (var db = new NorthWndEntities())
+            //    {
+            //        dbEmployees = db.Employees.ToList();
+            //    }
 
-                Employees = new ObservableCollection<Employee>(dbEmployees);
-            });
+            //    Employees = new ObservableCollection<Employee>(dbEmployees);
+            //}
+            //);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
