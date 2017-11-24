@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDemo", "WpfAppDemo\WpfAppDemo.csproj", "{EC90945D-F71D-4945-B7CC-C9A44DF3114C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMFirstApplication", "MVVMFirstApplication\MVVMFirstApplication.csproj", "{1BB6FB0C-CCB6-4C68-ACD1-600055F43E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMViewModelLocator", "MVVMViewModelLocator\MVVMViewModelLocator.csproj", "{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EC90945D-F71D-4945-B7CC-C9A44DF3114C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC90945D-F71D-4945-B7CC-C9A44DF3114C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC90945D-F71D-4945-B7CC-C9A44DF3114C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB6FB0C-CCB6-4C68-ACD1-600055F43E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB6FB0C-CCB6-4C68-ACD1-600055F43E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB6FB0C-CCB6-4C68-ACD1-600055F43E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB6FB0C-CCB6-4C68-ACD1-600055F43E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
