@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMFirstApplication", "MVV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMViewModelLocator", "MVVMViewModelLocator\MVVMViewModelLocator.csproj", "{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMWPFDataTemplates", "MVVMWPFDataTemplates\MVVMWPFDataTemplates.csproj", "{724668A1-62EF-4BFD-B2FA-401658961874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34741E61-14D6-4D21-8C5D-ACA5D6D4627C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724668A1-62EF-4BFD-B2FA-401658961874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724668A1-62EF-4BFD-B2FA-401658961874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724668A1-62EF-4BFD-B2FA-401658961874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724668A1-62EF-4BFD-B2FA-401658961874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
