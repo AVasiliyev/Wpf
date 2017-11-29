@@ -1,6 +1,6 @@
 ﻿namespace MVVMHierarchiesAndNavigation.Model
 {
-    class Order
+    internal class Order
     {
     }
 }

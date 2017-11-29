@@ -1,6 +1,6 @@
 ﻿namespace MVVMHierarchiesAndNavigation.Model
 {
-    class Customer
+    internal class Customer
     {
     }
 }
